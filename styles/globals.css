@@ -2341,4 +2341,8 @@
   justify-content: space-around;
   row-gap: 1rem;
 }
+.custom-card-back_abcd{
+  background-color: #e8ebef !important;
+  color: #000;
+}
   /*# sourceMappingURL=styles.css.map */

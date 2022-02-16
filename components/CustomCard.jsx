@@ -50,21 +50,21 @@ const CustomCard = ({ customPages,query }) => {
                                             <div className=''>
                                                 <div>
                                                     <p className='text-center_abcd'>Net Profit Margin</p>
-                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto elseone'>{item[0]?.netprofitmarginttm ? item[0]?.netprofitmarginttm : "NA"}</div>
+                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto custom-card-back_abcd'>{item[0]?.netprofitmarginttm ? item[0]?.netprofitmarginttm : "NA"}</div>
                                                 </div>
                                                 <div>
                                                     <p className='text-center_abcd'>Gross Profit Margin</p>
-                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto  evtosaletwo '>{item[0]?.grossprofitmarginttm ? item[0]?.grossprofitmarginttm : "NA"}</div>
+                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto  custom-card-back_abcd '>{item[0]?.grossprofitmarginttm ? item[0]?.grossprofitmarginttm : "NA"}</div>
                                                 </div>
                                             </div>
                                             <div className=''>
                                                 <div>
                                                     <p className='text-center_abcd'>Return on Asset</p>
-                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto elseone'>{item[0]?.returnonassetsttm ? item[0]?.returnonassetsttm : "NA"}</div>
+                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto custom-card-back_abcd'>{item[0]?.returnonassetsttm ? item[0]?.returnonassetsttm : "NA"}</div>
                                                 </div>
                                                 <div>
                                                     <p className='text-center_abcd'>Return on Equity</p>
-                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto  enterprisetwo'>{item[0]?.returnonequityttm ? item[0]?.returnonequityttm : "NA"}</div>
+                                                    <div className='abcd_row abcd_justify-center abcd_core-performance abcd_align-center m-auto  custom-card-back_abcd'>{item[0]?.returnonequityttm ? item[0]?.returnonequityttm : "NA"}</div>
                                                 </div>
                                             </div>
                                         </div>
