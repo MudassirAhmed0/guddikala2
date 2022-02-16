@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
       <link rel='icon' href='/favicon.png' />
         <meta name="theme-color" content="#2CBC63"/>
         <link rel='manifest' href='/manifest.json' />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"/>
       </Head>
 
       <Component {...pageProps} />
