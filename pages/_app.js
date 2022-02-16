@@ -5,11 +5,11 @@ import Script from 'next/script'
 import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }) {
-  useEffect(()=>{
-    let script = document.createElement('script')
-    script.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js')
-    document.querySelector("body").appendChild(script)
-  },[])
+  // useEffect(()=>{
+  //   let script = document.createElement('script')
+  //   script.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js')
+  //   document.querySelector("body").appendChild(script)
+  // },[])
   return (
     <>
       <Head>
