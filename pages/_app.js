@@ -17,6 +17,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css" />
+        <link rel='icon' href='/favicon.png' />
+        <link rel='manifest' href='/manifest.json' />
       </Head>
 
       <Component {...pageProps} />
