@@ -13,10 +13,9 @@ export default function FilterData() {
 
 
  
+    const query = router.query
     useEffect(() => {
 
-        const query = router.query
-        console.log(query);
         const getData = async () => { 
 
                 const url = `https://humbletitanapi.herokuapp.com/filtered-data?filterlabel=${query?.filterlabel}&filterCondition=${query?.filterCondition}&filterValue=${query?.filterValue}`
@@ -38,7 +37,7 @@ export default function FilterData() {
 
             </Head>
             <Layout>
-                <CustomCard customPages={customPages} />
+                <CustomCard query={query} customPages={customPages} />
             </Layout>
         </div>
     )

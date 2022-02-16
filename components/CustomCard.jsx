@@ -1,12 +1,18 @@
 import Link from 'next/link';
 
-const CustomCard = ({ customPages }) => {
+const CustomCard = ({ customPages,query }) => {
 
     const MAX_LENGTH = 300;
 
     return (
         <>
             <div className="abcd_container pt-5_abcd pb-5_abcd">
+            <h1 className='pb-3_abcd blue-color_abcd text-transform_abcd'>Result for</h1>
+                <div className=' pb-5_abcd abcd_row abcd_justify-between'>
+                    <h2 className='blue-color_abcd'>Filter Label : {query?.filterlabel} </h2>
+                    <h2 className='blue-color_abcd'>Filter Condition : {query?.filterCondition} </h2>
+                    <h2 className='blue-color_abcd'>Filter Value : {query?.filterValue} </h2>
+                </div>
                 {customPages?.map((item, chutu) =>
                     <div className="abcd_row abcd_justify-center abcd_wrap mb-2_abcd" key={chutu}>
                         <div className="abcd_col-12  full-width_abcd">
