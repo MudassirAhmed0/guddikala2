@@ -49,5 +49,5 @@
     "background_color": "#FFFFFF",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#2CBC63"
+    "theme_color": "#000000"
   }
