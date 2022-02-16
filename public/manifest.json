@@ -39,6 +39,11 @@
         "sizes": "512x512"
       },
       {
+        "src": "/icons/apple-touch-icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
         "src": "/icons/maskable.png",
         "type": "image/png",
         "sizes": "192x192",
@@ -49,5 +54,5 @@
     "background_color": "#FFFFFF",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#000000"
+    "theme_color": "#2CBC63"
   }
