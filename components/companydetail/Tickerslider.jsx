@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 // import Slider from "react-slick";
 import TickerSlide from './TickerSlide';
 
@@ -69,3 +69,4 @@ const Tickerslider = () => {
 }
 
 export default Tickerslider
+ */

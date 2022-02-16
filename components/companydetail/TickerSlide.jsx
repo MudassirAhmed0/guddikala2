@@ -1,4 +1,4 @@
-// import Image from 'next/image';
+/* // import Image from 'next/image';
 import Link from 'next/link';
 import Apple from '../../assets/images/logo/AAPL.png';
 
@@ -22,3 +22,4 @@ const TickerSlide = () => {
 };
 
 export default TickerSlide;
+ */
