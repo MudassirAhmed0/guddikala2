@@ -76,7 +76,7 @@ const CustomCard = ({ customPages,query }) => {
                                         </div>
                                     </div>
                                 </div>
-                                <Link href={`/companydetail?symbol=${item[0]?.symbol}`} className='profile_font'>
+                                <Link href={`/companydetail/${item[0]?.symbol}`} className='profile_font'>
                                     <a>
                                         <button className="profile_card_btn_abcd bluehai-btn">
 

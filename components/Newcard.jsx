@@ -61,7 +61,7 @@ const Newcard = ({ data }) => {
                         </li>
 
                     </ul>
-                    <Link href={`/companydetail?symbol=${data?.Symbol}`} className='profile_font'>
+                    <Link href={`/companydetail/${data?.Symbol}`} className='profile_font'>
                         <a>
                             <button className="profile_card_btn_abcd bluehai-btn">
 
